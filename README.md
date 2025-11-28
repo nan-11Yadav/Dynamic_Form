@@ -1,48 +1,25 @@
-# React + Vite
+Dynamic Form Builder (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
-
-Dynamic Form Builder
-
-A dynamic and customizable form builder built with React + Vite.
-Users can create forms, add fields, preview forms, and save submissions using Local Storage.
-
-
-.
+A dynamic and customizable form builder built using React + Vite.
+Users can create forms, add multiple field types, preview forms in real-time, save forms to LocalStorage, and manage form submissions easily.
 
 🚀 Features
 
-Create forms with custom fields
+📝 Create custom forms
 
-Add multiple field types (text, textarea, select, etc.)
+➕ Add multiple field types (Text, Textarea, Select, etc.)
 
-Preview forms before saving
+👀 Live form preview
 
-Save forms in LocalStorage
+💾 Save forms in LocalStorage
 
-Submit entries
+📤 Submit form entries
 
-View all entries for each form
+📑 View all entries submitted for each form
 
-Clean and modern UI
+🎨 Clean & modern UI
 
-
-Tech Stack
+🛠️ Tech Stack
 
 React (Vite)
 
@@ -52,38 +29,29 @@ LocalStorage
 
 CSS
 
-Installation
-
-Clone the project:
-
+📦 Installation & Setup
+1️⃣ Clone the repository
 git clone https://github.com/nan-11Yadav/Dynamic_Form.git
 cd Dynamic_Form
 
-
-Install dependencies:
-
+2️⃣ Install dependencies
 npm install
 
-
-Start the development server:
-
+3️⃣ Start the development server
 npm run dev
 
+4️⃣ Open in browser
 
-Open in browser:
 👉 http://localhost:5173
 
-
-
-Folder Structure
+📁 Folder Structure
 src/
-│── components/
-│── pages/
-│── utils/
-│── App.jsx
-│── index.css
+│── components/   # Reusable UI components
+│── pages/        # Application pages (Home, Builder, Preview, etc.)
+│── utils/        # Helper functions
+│── App.jsx       # Root component with routing
+│── index.css     # Global styles
 
-⭐ Show Your Support
 
-If you like this project, please give it a ⭐ on GitHub!
 
+If you found this project helpful or interesting, please give it a ⭐ on GitHub — it motivates me to build more cool things!
